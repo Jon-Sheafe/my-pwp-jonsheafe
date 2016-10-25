@@ -15,7 +15,7 @@ Your HTML looks good, although I would suggest using some other tags to improve 
 
 
 ### Edits &amp; Suggestions 
-- Your HTML is written very well, but instead of using <dl>, <dt>, and <dd> tags - use <ul> <li> and <ol>. Do some research on these. they will make your code much cleaner. ul places the li (list items) in bullets, while <ol> places them in numbered bullets.
+- Your HTML is written very well, but instead of using `<dl>`, `<dt>`, and `<dd>` tags - use `<ul>` `<li>` and `<ol>`. Do some research on these. they will make your code much cleaner. ul places the li (list items) in bullets, while `<ol>` places them in numbered bullets.
 
 
 
