@@ -16,3 +16,7 @@ Your HTML looks good, although I would suggest using some other tags to improve 
 
 ### Edits &amp; Suggestions 
 - Your HTML is written very well, but instead of using <dl>, <dt>, and <dd> tags - use <ul> <li> and <ol>. Do some research on these. they will make your code much cleaner. ul places the li (list items) in bullets, while <ol> places them in numbered bullets.
+
+
+
+Overall, you did a great job. You've passed milestone 1 within tier 3! You may now advance to milestone 2a. Keep up the good work.
