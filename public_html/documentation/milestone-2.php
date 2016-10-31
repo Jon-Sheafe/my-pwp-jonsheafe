@@ -14,9 +14,13 @@
 			<!-- this section will show two images of wireframes -->
 			<h1>Wireframes</h1>
 			<h2>Desktop Wireframe</h2>
-
+				<img src="img/deskHome.png" alt="Desktop home page">
+			<img src="img/deskTech.png" alt="Desktop techinal page">
+			<img src="img/deskContact.png" alt="Desktop contact page">
 			<h2>Mobile Wireframe</h2>
-
+			<img src="img/mobileHome.png" alt="Mobile home page">
+			<img src="img/mobileTech.png" alt="Mobile techinal page">
+			<img src="img/mobileContact.png" alt="Mobile contact page">
 		</section>
 	</body>
 </html>
