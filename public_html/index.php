@@ -11,7 +11,9 @@ require_once("php/templates/head-utils.php");
 
 <!-- HTML/PAGE CONTENT GOES HERE -->
 <body>
-	<header></header>
+	<header>
+		<div></div>
+	</header>
 	<main></main>
 	<footer></footer>
 
