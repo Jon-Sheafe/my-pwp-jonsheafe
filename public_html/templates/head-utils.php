@@ -63,3 +63,4 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- echo the $PAGE_TITLE variable here -->
 		<title><?php echo $PAGE_TITLE;?></title>
 	</head>
+
