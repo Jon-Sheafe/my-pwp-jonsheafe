@@ -6,7 +6,7 @@ $CURRENT_DIR = __DIR__;
 $PAGE_TITLE = "Jon Sheafe";
 
 /*load head-utils.php*/
-require_once(__DIR__.'php/templates/head-utils.php');
+require_once(__DIR__ . 'php/templates/head-utils.php');
 ?>
 
 <!-- HTML/PAGE CONTENT GOES HERE -->
