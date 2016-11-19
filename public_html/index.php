@@ -1,3 +1,4 @@
+<html>
 <?php
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
@@ -22,4 +23,4 @@ require_once(__DIR__ . 'php/templates/head-utils.php');
 	</footer>
 
 
-</body>
+</body></html>
