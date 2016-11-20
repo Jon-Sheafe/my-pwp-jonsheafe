@@ -8,7 +8,9 @@
 
 		<!-- Bootstrap: Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- Latest compiled and minified CSS -->
+		<!-- CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
 
 
 		<!-- echo the $PAGE_TITLE variable here -->
@@ -16,19 +18,19 @@
 	</head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container" id="home">
 			<div class="row">
-				<div class="col-sm-2 col-sm-offset-3">
+				<div class="col-sm-2 col-sm-offset-4">
 					<!--Home button -->
-					<button type="button" class="btn btn-info btn-lg" id="btn-home">Home</button>
-				</div>
+					<button type="button" class="btn btn-primary btn-lg" id="btn-home" >Home</button>
+		</div>
 				<div class="col-sm-2">
 					<!-- Tech Button -->
-					<button type="button" class="btn btn-info btn-lg" id="btn-tech">Tech Disc</button>
+					<button type="button" class="btn btn-primary btn-lg" id="btn-tech" >Tech Disc</button>
 				</div>
 				<div class="col-sm-2">
 					<!-- Contact Button -->
-					<button type="button" class="btn btn-info btn-lg" id="btn-contact">Contact</button>
+					<button type="button" class="btn btn-primary btn-lg" id="btn-contact" >Contact</button>
 				</div>
 			</div>
 		</div>
@@ -79,7 +81,16 @@
 					</a>
 				</div>
 			</div>
+		</div>
+		<div class="container" id="tech">
+			< class="row">
+				<span id="tech-boarder">
+					<div class col-sm-9>
+
+					</div>
+				</span>
 			</div>
+		</div>
 	</main>
 	<footer>
 
