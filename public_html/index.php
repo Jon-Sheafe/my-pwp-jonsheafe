@@ -82,14 +82,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="container" id="tech">
-			< class="row">
-				<span id="tech-boarder">
-					<div class col-sm-9>
-
-					</div>
-				</span>
-			</div>
+		<div class="container parallax" id="tech" >
+			<span >
+				<div class="col-sm-9 col-sm-offset-3" id="tech-boarder">
+					<h2>Tech Details</h2>
+					<p><b>Php: </b> PHP is a server side language that is used to give websites. <br />
+						<b>HTML 5:</b>
+					</p>
+				</div>
+			</span>
 		</div>
 	</main>
 	<footer>
