@@ -18,11 +18,11 @@
 	<header></header>
 	<main>
 		<div class="container">
-			<div class="row">
+			<div class="row" >
 				<div class="col-sm-3"><img src="img/headShot.png" rel="portrait" class="img-rounded .img-responsive" ></div>
 				<div class="col-sm-offset-4">
 					<h2>Welcome to my personal page</h2><br />
-					<p>test about me vvvvvvvvvvvvvvvvvvvv vvvvvvvvvvvvvvvvvvv vvvvvvvvvvvv vvvvvvvvvv</p>
+					<p> I am pursuing a new career in web development because I discovered that I have a passion to problem solve and find solutions using technology and process improvements. At my previous position, I realized that there were limitations to the reports and databases used in the department. I then began learning on my own and improved those databases and reports to better fit my department. However, the databases were limited as they were all in Microsoft access, which they could easily be deleted or changed. I then realize that I needed additional skills to make them more secure and resilient. This is the reason I decided to return to school and learn current computer languages and techniques. As a developer, I am able to use different languages, frameworks, and dev tools to find solutions to complex problems without having the same limitations that I had in the past.  </p>
 				</div>
 			</div>
 		</div>
