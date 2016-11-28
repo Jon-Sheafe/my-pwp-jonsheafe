@@ -20,8 +20,8 @@
 	<body>
 		<header>
 			<div class="container" id="nav-t">
-				<div class="row">
-					<div class="col-sm-2 col-sm-offset-4">
+				<div class="row col-sm-offset-4 navbar-fixed-top">
+					<div class="col-sm-2">
 						<!--Home button -->
 						<button type="button" class="btn btn-primary btn-lg" id="btn-home">Home</button>
 					</div>
@@ -105,18 +105,18 @@
 		</main>
 		<footer>
 			<div class="container"
-				  <div class="row">
-					  <div class="footer navbar-fixed-bottom" id="nav-b">
+				  <div class="row col-sm-offset-4 navbar-fixed-bottom" id="nav-b">
+					  <div class="col-sm-12" >
 						  <!--Home button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-home">Home</button>
+						  <button type="button" class="btn btn-primary btn-lg" id="btn-home2">Home</button>
 					  </div>
-					  <div class="col-sm-2">
+					  <div class="col-sm-12">
 						  <!-- Tech Button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-tech">Tech Disc</button>
+						  <button type="button" class="btn btn-primary btn-lg" id="btn-tech2">Tech Disc</button>
 					  </div>
-					  <div class="col-sm-2">
+					  <div class="col-sm-12">
 						  <!-- Contact Button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-contact">Contact</button>
+						  <button type="button" class="btn btn-primary btn-lg" id="btn-contact2">Contact</button>
 					  </div>
 				  </div>
 
