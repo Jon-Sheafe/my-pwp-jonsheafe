@@ -19,3 +19,13 @@ h2 {text-align: center; font-size: 2.5em;}
 	background-size: cover;
 }
 
+@media (min-width: @screen-sm-min) {
+	#nav-t {
+		display:none;
+	}
+}
+@media (max-width: @screen-sm-max) {
+	#nav-b {
+		display: none;
+	}
+}

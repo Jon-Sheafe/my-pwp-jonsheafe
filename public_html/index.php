@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<header>
-			<div class="container" id="home">
+			<div class="container" id="nav-t">
 				<div class="row">
 					<div class="col-sm-2 col-sm-offset-4">
 						<!--Home button -->
@@ -106,7 +106,7 @@
 		<footer>
 			<div class="container"
 				  <div class="row">
-					  <div class="footer navbar-fixed-bottom">
+					  <div class="footer navbar-fixed-bottom" id="nav-b">
 						  <!--Home button -->
 						  <button type="button" class="btn btn-primary btn-lg" id="btn-home">Home</button>
 					  </div>
