@@ -155,7 +155,7 @@
 				</div>
 
 				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+				<div class="g-recaptcha" data-sitekey="6LdFcA0UAAAAABjSu7jnwQeuiF931FBPoX_h44Zx"></div>
 
 				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
