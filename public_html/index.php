@@ -10,13 +10,16 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
-<!--		reCaptcha client-side integration step1-->
+		<!--		reCaptcha client-side integration step1-->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Bootstrap: Latest compiled and minified CSS -->
@@ -75,7 +78,8 @@
 						<h2>Tech Details</h2>
 						<div class="row">
 							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7" class="img-responsive"></a>
+								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7"
+																														class="img-responsive"></a>
 							</div>
 							<div class="col-sm-1"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
 									<img src="img/mySql.png" rel="mySQL" class="img-responsive"></a>
@@ -112,7 +116,7 @@
 						</div>
 						index.php
 					</div>
-					</p>
+
 				</div>
 			</div>
 			<!--Begin Contact Form-->
@@ -150,7 +154,8 @@
 						<div class="input-group-addon">
 							<i class="fa fa-comment" aria-hidden="true"></i>
 						</div>
-						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+						<textarea class="form-control" rows="5" id="message" name="message"
+									 placeholder="Message (2000 characters max)"></textarea>
 					</div>
 				</div>
 
@@ -169,21 +174,22 @@
 			</div>
 		</main>
 		<footer>
-			<div class="container"
-				  <div class="row col-sm-offset-4 navbar-fixed-bottom" id="nav-b">
-					  <div class="col-sm-12" >
-						  <!--Home button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-home2">Home</button>
-					  </div>
-					  <div class="col-sm-12">
-						  <!-- Tech Button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-tech2">Tech Disc</button>
-					  </div>
-					  <div class="col-sm-12">
-						  <!-- Contact Button -->
-						  <button type="button" class="btn btn-primary btn-lg" id="btn-contact2">Contact</button>
-					  </div>
-				  </div>
+			<div class="container">
+				<div class="row col-sm-offset-4 navbar-fixed-bottom" id="nav-b">
+					<div class="col-sm-12">
+						<!--Home button -->
+						<button type="button" class="btn btn-primary btn-lg" id="btn-home2">Home</button>
+					</div>
+					<div class="col-sm-12">
+						<!-- Tech Button -->
+						<button type="button" class="btn btn-primary btn-lg" id="btn-tech2">Tech Disc</button>
+					</div>
+					<div class="col-sm-12">
+						<!-- Contact Button -->
+						<button type="button" class="btn btn-primary btn-lg" id="btn-contact2">Contact</button>
+					</div>
+				</div>
+			</div>
 
 		</footer>
 	</body>
