@@ -120,7 +120,7 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<!--Begin Contact Form-->
-						<form id="contact-form" method="POST" action="../php/mailer.php" novalidate>
+						<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
