@@ -120,7 +120,7 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
 						<!--Begin Contact Form-->
-						<form id="contact-form" action="../php/mailer.php" method="post">
+						<form id="contact-form" method="POST" action="../php/mailer.php" novalidate>
 							<div class="form-group">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
@@ -165,6 +165,14 @@
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
+						<!-- Error Message goes here -->
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-4">
+
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
