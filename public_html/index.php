@@ -38,18 +38,22 @@
 		<header>
 			<div class="container" id="nav-t">
 				<div class="row col-sm-offset-4 navbar-fixed-top">
-					<div class="col-sm-2">
-						<!--Home button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-home">Home</button>
-					</div>
-					<div class="col-sm-2">
-						<!-- Tech Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-tech">Tech Disc</button>
-					</div>
-					<div class="col-sm-2">
-						<!-- Contact Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-contact">Contact</button>
-					</div>
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+										  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="#nav-home2">Home</a>
+								<a class="navbar-brand" href="#tech">Tech</a>
+								<a class="navbar-brand" href="#contact">Contact</a>
+							</div>
+						</div>
+					</nav>
 				</div>
 			</div>
 		</header>
@@ -58,7 +62,7 @@
 				<div class="row">
 					<div class="col-sm-3"><img src="img/headShot.png" rel="portrait" class="img-rounded img-responsive">
 					</div>
-					<div class="col-sm-offset-4">
+					<div class="col-sm-offset-4" id="Tech">
 						<h2>Welcome to my personal page</h2><br/>
 						<p> I am pursuing a new career in web development because I discovered that I have a passion to
 							problem solve and find solutions using technology and process improvements. At my previous
@@ -77,8 +81,7 @@
 						<h2>Tech Details</h2>
 						<div class="row">
 							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7"
-																														class="img-responsive"></a>
+								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7" class="img-responsive"></a>
 							</div>
 							<div class="col-sm-1"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
 									<img src="img/mySql.png" rel="mySQL" class="img-responsive"></a>
@@ -121,7 +124,7 @@
 					<div class="col-sm-6 col-sm-offset-3">
 						<!--Begin Contact Form-->
 						<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
-							<div class="form-group">
+							<div class="form-group" id="contact">
 								<label for="name">Name <span class="text-danger">*</span></label>
 								<div class="input-group">
 									<div class="input-group-addon">
@@ -194,11 +197,11 @@
 					</div>
 					<div class="col-sm-12">
 						<!-- Tech Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-tech2">Tech Disc</button>
+						<button type="button" class="btn btn-primary btn-lg" id="nav-tech2">Tech Disc</button>
 					</div>
 					<div class="col-sm-12">
 						<!-- Contact Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-contact2">Contact</button>
+						<button type="button" class="btn btn-primary btn-lg" id="nav-contact2">Contact</button>
 					</div>
 				</div>
 			</div>
