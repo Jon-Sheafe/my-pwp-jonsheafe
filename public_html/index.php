@@ -29,33 +29,37 @@
 		<!-- CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
-
-
 		<!-- echo the $PAGE_TITLE variable here -->
+		<!--		<script src="js/pwp.js"></script>-->
 		<title>Jon Sheafe</title>
 	</head>
 	<body>
 		<header>
-			<div class="container" id="nav-t">
-				<div class="row col-sm-offset-4 navbar-fixed-top">
-					<nav class="navbar navbar-default">
-						<div class="container-fluid">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-										  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<a class="navbar-brand" href="#nav-home2">Home</a>
-								<a class="navbar-brand" href="#tech">Tech</a>
-								<a class="navbar-brand" href="#contact">Contact</a>
-							</div>
-						</div>
-					</nav>
+			<div class="container">
+				<div class="row">
+					<div class="jumbotron">
+						<img src="img/skyLine.png" alt="sky line">
+					</div>
 				</div>
 			</div>
+
+			<!-- city landscape image -->
+			<div class="container">
+				<div class="row">
+					<div class="parallax" id="parallax"></div>
+				</div>
+			</div>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header" id="nav-t">
+						<ul class="nav navbar-nav test" id="center">
+							<li class="active test" id="tech-click"><a href="#tech">Tech <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="active test" id="contact-click"><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</header>
 		<main>
 			<div class="container">
@@ -81,7 +85,8 @@
 						<h2>Tech Details</h2>
 						<div class="row">
 							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7" class="img-responsive"></a>
+								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7"
+																														class="img-responsive"></a>
 							</div>
 							<div class="col-sm-1"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
 									<img src="img/mySql.png" rel="mySQL" class="img-responsive"></a>
@@ -161,10 +166,8 @@
 												 placeholder="Message (2000 characters max)"></textarea>
 								</div>
 							</div>
-
 							<!-- reCAPTCHA -->
 							<div class="g-recaptcha" data-sitekey="6LdFcA0UAAAAABjSu7jnwQeuiF931FBPoX_h44Zx"></div>
-
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
@@ -179,8 +182,6 @@
 					</div>
 				</div>
 			</div>
-
-
 			<!--empty area for form error/success output-->
 			<div class="row">
 				<div class="col-xs-12">
@@ -190,23 +191,18 @@
 		</main>
 		<footer>
 			<div class="container">
-				<div class="row col-sm-offset-4 navbar-fixed-bottom" id="nav-b">
-					<div class="col-sm-12">
-						<!--Home button -->
-						<button type="button" class="btn btn-primary btn-lg" id="btn-home2">Home</button>
-					</div>
-					<div class="col-sm-12">
-						<!-- Tech Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="nav-tech2">Tech Disc</button>
-					</div>
-					<div class="col-sm-12">
-						<!-- Contact Button -->
-						<button type="button" class="btn btn-primary btn-lg" id="nav-contact2">Contact</button>
-					</div>
+				<div class="row" id="Contact">
+					<nav class="navbar-fixed-bottom navbar navbar-default">
+						<!--						<div class="container-fluid">-->
+						<div class="navbar-header" id="nav-b">
+							<ul class="nav navbar-nav navbar-right" id="center">
+								<li class="active"><a href="#tech">Tech <span class="sr-only">(current)</span></a></li>
+								<li class="active"><a href="#contact">Contact</a></li>
+							</ul>
+						</div>
+					</nav>
 				</div>
 			</div>
-
 		</footer>
 	</body>
-
 </html>
