@@ -35,31 +35,34 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="row">
-					<div class="jumbotron">
-						<img src="img/skyLine.png" alt="sky line">
-					</div>
-				</div>
-			</div>
-
 			<!-- city landscape image -->
 			<div class="container">
-				<div class="row">
-					<div class="parallax" id="parallax"></div>
+			</div>
+			<div class="row">
+				<div class="parallax" id="parallax"></div>
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header" id="nav-t">
+							<ul class="nav navbar-nav test" id="center">
+								<li class="active test" id="home-click">
+									<a href="#home">Home</a>
+								</li>
+								<li class="active test" id="tech-click">
+									<a href="#tech">Tech <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="active test" id="contact-click">
+									<a href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="row">
+				<div class="jumbotron">
+					<img src="img/skyLine.png" alt="sky line">
 				</div>
 			</div>
-			<nav class="navbar navbar-default">
-				<div class="container-fluid">
-					<div class="navbar-header" id="nav-t">
-						<ul class="nav navbar-nav test" id="center">
-							<li class="active test" id="tech-click"><a href="#tech">Tech <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="active test" id="contact-click"><a href="#contact">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-			</nav>
 		</header>
 		<main>
 			<div class="container">
@@ -67,7 +70,7 @@
 					<div class="col-sm-3"><img src="img/headShot.png" rel="portrait" class="img-rounded img-responsive">
 					</div>
 					<div class="col-sm-offset-4" id="Tech">
-						<h2>Welcome to my personal page</h2><br/>
+						<h2 id="home">Welcome to my personal page</h2><br/>
 						<p> I am pursuing a new career in web development because I discovered that I have a passion to
 							problem solve and find solutions using technology and process improvements. At my previous
 							position, I realized that there were limitations to the reports and databases used in the
@@ -85,8 +88,7 @@
 						<h2>Tech Details</h2>
 						<div class="row">
 							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7"
-																														class="img-responsive"></a>
+								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7" class="img-responsive"></a>
 							</div>
 							<div class="col-sm-1"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
 									<img src="img/mySql.png" rel="mySQL" class="img-responsive"></a>
