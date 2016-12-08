@@ -197,9 +197,16 @@
 					<nav class="navbar-fixed-bottom navbar navbar-default">
 						<!--						<div class="container-fluid">-->
 						<div class="navbar-header" id="nav-b">
-							<ul class="nav navbar-nav navbar-right" id="center">
-								<li class="active"><a href="#tech">Tech <span class="sr-only">(current)</span></a></li>
-								<li class="active"><a href="#contact">Contact</a></li>
+							<ul class="nav navbar-nav test" id="center">
+								<li class="active test" id="home-click">
+									<a href="#home">Home</a>
+								</li>
+								<li class="active test" id="tech-click">
+									<a href="#tech">Tech <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="active test" id="contact-click">
+									<a href="#contact">Contact</a>
+								</li>
 							</ul>
 						</div>
 					</nav>
