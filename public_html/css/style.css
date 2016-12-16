@@ -63,8 +63,11 @@ li .test {
 	}
 	.navbar-collapse.collapse {
 		display: block!important;
+		 
 	}
-
+	#banner2 {
+		display: none;
+	}
 	/*#banner2 {display: none!important;*/
 	/*}*/
 }
@@ -92,9 +95,16 @@ a:hover{
 a{ color: green;}
 
 
-.sr-only
+
 
 #form {
 	padding-top: 40px;
 	padding-bottom: 20px;
+}
+#tech {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
