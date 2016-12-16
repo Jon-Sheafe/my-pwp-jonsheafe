@@ -36,12 +36,12 @@
 	<body>
 		<header>
 			<!-- city landscape image -->
-			<div class="container">
+			<div class="container" id="banner2">
 			</div>
 			<div class="row">
 				<div class="parallax" id="parallax"></div>
 				<nav class="navbar navbar-default">
-					<div class="container-fluid">
+					<div class="container-fluid Aligner-item">
 						<div class="navbar-header" id="nav-t">
 							<ul class="nav navbar-nav test" id="center">
 								<li class="active test" id="home-click">
@@ -60,7 +60,7 @@
 			</div>
 			<div class="row">
 				<div class="jumbotron">
-					<img src="img/skyLine.png" alt="sky line">
+					<img src="img/skyLine.png" alt="sky line" id="banner">
 				</div>
 			</div>
 		</header>
@@ -84,22 +84,21 @@
 					</div>
 				</div>
 				<div class="container " id="tech">
-					<div class="col-sm-9 col-sm-offset-3" id="tech-boarder">
+					<div class="col-sm-12 col-sm-offset-0" id="tech-boarder">
 						<h2>Tech Details</h2>
 						<div class="row">
-							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7" class="img-responsive"></a>
+							<div class="col-sm-2">
+								<a href="https://en.wikipedia.org/wiki/PHP" target="_blank"> <img src="img/php.png" rel="php 7"
+																														class="img-responsive"></a>
 							</div>
-							<div class="col-sm-1"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
+							<div class="col-sm-2"><a href="https://en.wikipedia.org/wiki/mysql" target="_blank">
 									<img src="img/mySql.png" rel="mySQL" class="img-responsive"></a>
 							</div>
-							<div class="col-sm-1">
+							<div class="col-sm-2">
 								<a href="https://en.wikipedia.org/wiki/AngularJS#Angular_2" target="_blank">
 									<img src="img/angular2.jpg" rel="angular 2" class="img-rounded img-responsive">
 								</a>
 							</div>
-						</div>
-						<div class="row">
 							<div class="col-sm-2">
 								<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">
 									<img src="img/html5.png" rel="HTML 5" class="img-responsive">
@@ -115,13 +114,11 @@
 									<img src="img/javaScript.png" rel="javaScript" class="img-rounded img-responsive">
 								</a>
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-1">
-								<a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">
-									<img src="img/nodeJs.png" rel="nodeJs" class="img-responsive">
-								</a>
-							</div>
+							<!--							<div class="col-sm-2">-->
+							<!--								<a href="https://en.wikipedia.org/wiki/Node.js" target="_blank">-->
+							<!--									<img src="img/nodeJs.png" rel="nodeJs" class="img-responsive">-->
+							<!--								</a>-->
+							<!--							</div>-->
 						</div>
 					</div>
 				</div>
@@ -192,7 +189,7 @@
 			</div>
 		</main>
 		<footer>
-			<div class="container">
+			<div class="container" id="form">
 				<div class="row" id="Contact">
 					<nav class="navbar-fixed-bottom navbar navbar-default">
 						<!--						<div class="container-fluid">-->
