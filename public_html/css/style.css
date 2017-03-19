@@ -77,6 +77,10 @@ li .test {
 	#nav-t {
 		display: none;
 	}
+		#parallax {
+		display: none;
+	}
+
 }
 .navbar .navbar-nav {
 	display: inline-block;

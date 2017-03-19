@@ -5,6 +5,7 @@
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="Web Developer, Albuquerque, New Mexico, Rio Rancho, FinTech"
 
 		<!-- jQuery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -31,7 +32,7 @@
 		<link rel="stylesheet" href="css/style.css">
 		<!-- echo the $PAGE_TITLE variable here -->
 		<!--		<script src="js/pwp.js"></script>-->
-		<title>Jon Sheafe</title>
+		<title>Jon Sheafe, Web Dev, FinTech, Albuquerque, Rio Rancho</title>
 	</head>
 	<body>
 		<header>
